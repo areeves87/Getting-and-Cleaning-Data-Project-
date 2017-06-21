@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Project-
 Repository for hosting Getting and Cleaning Data Course Project
 
-read.table("./tidy.txt", header=TRUE)
+Open the tidy dataset file named "tidy.txt" with read.table("./tidy.txt", header=TRUE).
 
 Each record in the tidy dataset has the following:
 ======================================
@@ -9,14 +9,14 @@ Each record in the tidy dataset has the following:
 - An activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The repository contains a script for generating the tidy dataset from the Samsung data and a codebook describing the variables in the tidy dataset.
+This github repository contains a script for generating the tidy dataset from the Samsung data and a codebook describing the variables in the tidy dataset.
 
 The repo includes the following files:
 =========================================
 
-- 'run_analysis.R' runs as long as the Samsung data is your working directory. E.g. setwd("~/coursera/GettingCleaningData/Assignment/UCI HAR Dataset"). The output will be a dataframe called "tidy_data" that will match the contents of the "tidy.txt" file.
+- 'run_analysis.R' will run as long as the Samsung data is your working directory. E.g. setwd("~/coursera/GettingCleaningData/Assignment/UCI HAR Dataset"). The output will be a dataframe called "tidy_data" that will match the contents of the "tidy.txt" file.
 
-- 'codebook.md' describes the variables in the tidy dataset, which include the fixed variables "id" and "activity" and 60-odd measured feature variables. 
+- 'codebook.md' describes the variables in the tidy dataset, which include the fixed variables "id" and "activity" and 66 measured feature variables. 
 
 Notes: 
 ======
